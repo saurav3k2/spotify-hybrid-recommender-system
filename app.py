@@ -1,16 +1,13 @@
 import streamlit as st
-from content_based_filtering import recommend
 from content_based_filtering import content_recommendation
-from collaborative_filtering import collaborative_recommendation
 from scipy.sparse import load_npz
 import pandas as pd
 from numpy import load
-#from hybrid_recommendations import HybridRecommenderSystem
+from hybrid_recommendations import HybridRecommenderSystem
 
 
 # load the data
 cleaned_data_path = "data/cleaned_data.csv"
-
 songs_data = pd.read_csv(cleaned_data_path)
 
 # load the transformed data
