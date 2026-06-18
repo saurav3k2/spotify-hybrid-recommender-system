@@ -48,6 +48,13 @@ coverage.xml
 *.cover
 *.py,cover
 .hypothesis/
+
+# Temporary directories
+%TEMP%/
+.temp/
+
+# DVC cache
+.dvc/cache/
 .pytest_cache/
 cover/
 
