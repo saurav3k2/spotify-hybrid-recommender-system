@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from scipy.sparse import load_npz
+
 from sklearn.metrics.pairwise import cosine_similarity
 
 

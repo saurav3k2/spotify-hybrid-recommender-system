@@ -1,2 +1,5 @@
 [core]
-    remote = myremote
+    remote = storage
+['remote "storage"']
+    url = s3://spotify-hybrid-recsys-remote2/dvc-storage
+    region = ap-south-1
